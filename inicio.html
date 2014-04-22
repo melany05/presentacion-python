@@ -1,0 +1,743 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1024" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link href="styles/shCore.css" rel="stylesheet" />
+    <link href="styles/shThemeDefault.css" rel="stylesheet" />
+    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="styles/shThemeDjango.css" rel="Stylesheet" />
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png"/>
+</head>
+
+<body class="impress-not-supported">
+
+<div class="fallback-message">
+    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
+</div>
+
+<div id="impress">
+	<div class="step" id="title" data-x="-2000" data-y="-2000">
+        <img align="center" id="python" src="images/python.png">
+        <h1 align="center">Python</h1>
+    </div>
+    
+    <div id="python" class="step" data-x="0" data-y="0" data-scale="4">
+        <h1 align="center">
+        	Es un lenguaje de programación de alto nivel, interpretado y
+        	dinámico cuya filosofía se enfoca en la legibilidad del código.
+        </h1>
+    </div>
+    
+    <div id="gvr" class="step" data-x="-1000" data-y="2000">
+        <p class="texto-seccion" align="center">Fue creado por </p>
+        <img id="python" src="images/gvr.jpg">
+        <p class="texto-seccion" align="center">Guido Van Rossum </p>
+    </div>
+    
+    <div id="caracteristicas" class="step" data-x="1000" data-y="2000">
+        <p class="titulo-seccion" align="center">¿Como es Python?</p>
+    </div>
+    
+    <div id="interpretado" class="step" data-x="1000" data-y="3000">
+        <p class="texto-seccion" align="center">Es un lenguaje interpretado </p>
+        <br/>
+        <img id="python" src="images/interpretado.png">
+    </div>
+    
+    <div id="tipado-dinamico" class="step" data-x="1000" data-y="4000">
+        <p class="texto-seccion" align="center">Usa tipado dinámico (Duck Typing)</p>
+        <br/>
+        <img id="python" src="images/duck_typing.jpg">
+        <p class="texto-seccion-cur" align="center">
+        	"Si luce como un pato y suena como un pato, debe ser un pato"
+        </p>
+    </div>
+    
+    <div id="fuertemente-tipado" class="step" data-x="1000" data-y="5000">
+        <p class="texto-seccion" align="center">Aún asi es fuertemente tipado</p>
+        <br/>
+        <img id="python" src="images/types.png">
+    </div>
+    
+    <div id="multiplataforma" class="step" data-x="1000" data-y="6000">
+        <p class="texto-seccion" align="center">Es multiplataforma</p>
+        <br/>
+        <img id="python" src="images/multi.png">
+    </div>
+    
+    <div id="ventajas" class="step" data-x="1000" data-y="7000">
+        <p class="titulo-seccion" align="center">Ventajas de python</p>
+    </div>
+    
+    <div width="1200px" id="sencillo" class="step" data-x="1000" data-y="8000">
+        <p class="texto-seccion" align="center">Sintaxis clara y sencilla que facilita el aprendizaje</p>
+        <pre class="brush: java">
+        	// CÓDIGO EN JAVA
+        	class Programa {
+    			static public int perimetro(int largo, int ancho) {
+      				return 2*largo + 2*ancho;
+    			}	
+			
+    			static public void main(String args[]) {
+      				int largo = 42;
+      				int ancho = 37;
+      				System.out.println(perimetro(largo, ancho));
+      		}}</pre>
+        <pre class="brush: python">
+        	# CÓDIGO EN PYTHON
+			def perimetro(largo, ancho):
+  				return 2 * largo + 2 * ancho
+
+			largo = 42
+			ancho = 37
+			print perimetro(largo, ancho)</pre>
+    </div>
+    
+    <div id="librerias" class="step" data-x="1000" data-y="9000">
+        <p class="texto-seccion" align="center">Gran cantidad de librerias disponibles</p>
+        <br/>
+        <img id="python" src="images/batteries.jpg">
+    </div>
+    
+    <div id="gratuito" class="step" data-x="1000" data-y="10000">
+        <p class="texto-seccion" align="center">Es Software Libre</p>
+        <br/>
+        <img id="python" src="images/FLOSS.png">
+    </div>
+    
+    <div id="desventajas" class="step" data-x="1000" data-y="11000">        
+        <p class="titulo-seccion" align="center">Desventajas </p>    
+    </div>
+    
+    <div id="critico" class="step" data-x="1000" data-y="12000">
+    	<p class="texto-seccion" align="center">
+    		Python no es adecuado para la programación de bajo nivel 
+    		o para aplicaciones en las que el rendimiento sea crítico.
+		</p>
+    </div>
+    
+    <div id="ejemplos" class="step" data-x="2500" data-y="12000">
+    	<p class="texto-seccion" align="center">Por ejemplo:</p>
+    	<ul>
+    		<li>
+    			* Desarrollo de drivers
+    		</li>
+    		<li>
+    			* Operaciones críticas de bases de datos
+    		</li>
+    		<li>
+    			* Algoritmos de compresión de datos
+    		</li>
+    		<li>
+    			* Tareas altamente especializadas
+    		</li>
+    	</ul>
+    </div>
+        
+    <div id="tipos-datos" class="step" data-x="4000" data-y="9000">
+        <p class="titulo-seccion" align="center">1. Tipos de datos </p>
+    </div>
+    
+    <div id="enteros" class="step" data-x="4000" data-y="9200">
+        <p class="texto-seccion">* Enteros</p>
+    </div>
+    
+    <div id="float" class="step" data-x="4000" data-y="9400">
+        <p class="texto-seccion">* Flotantes</p>
+    </div>
+    
+    <div id="cadenas" class="step" data-x="4000" data-y="9600">
+        <p class="texto-seccion">* Cadenas de texto y unicodes</p>
+    </div>
+    
+    <div id="bool" class="step" data-x="4000" data-y="9800">
+        <p class="texto-seccion">* Booleanos</p>
+    </div>
+    
+    <div id="colecciones" class="step" data-x="6000" data-y="9000">
+        <p class="titulo-seccion" align="center">2. Colecciones</p>
+    </div>
+    
+    <div id="listas" class="step" data-x="6000" data-y="9500">
+        <p class="texto-seccion">Listas </p>
+        <pre class="brush: python">
+			lista1 = [0, 1, 2]
+			lista2 = ["texto1", "texto2", "texto3"]
+			lista3 = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+			lista3 = [(1, 2, 3), (4, 5, 6), (7, 8, 9)]
+			lista4 = [1, [2, 3], (4, 5, 6), "7", {8:"9"}]</pre>
+    </div>
+    
+    <div id="tuplas" class="step" data-x="6000" data-y="10500">
+        <p class="texto-seccion">Tuplas</p>
+        <pre class="brush: python">
+			tupla1 = (0, 1, 2)
+			tupla2 = ("texto1", "texto2", "texto3")
+			tupla3 = ((1, 2, 3), (4, 5, 6), (7, 8, 9))
+			tupla3 = ([1, 2, 3], [4, 5, 6], [7, 8, 9])
+			tupla4 = (1, [2, 3], (4, 5, 6), "7", {8:"9"})</pre>
+    </div>
+    
+    <div id="dicc" class="step" data-x="6000" data-y="11500">
+        <p class="texto-seccion">Diccionarios</p>
+        <pre class="brush: python">
+			dic1 = {1:"a", 2:"e", 3:"i", 4:"o", 5:"u"}
+			dic2 = {"a":1, "e":2, "i":3, "o":4, "u":5}
+			dic3 = {"a":1, 2:"e", "i":3, 4:"o", "u":5}
+			dic4 = {"lista1":[1, 2, 3], "tupla": (4, 5, 6)}
+			dic5 = {"d1": {"rojo":(255, 0, 0)}}
+			dic6 = {(0, 255, 0): "verde", (0, 0, 255): "azul"}</pre>
+    </div>
+    
+    <div id="control-flujo" class="step" data-x="9000" data-y="9000">
+        <p class="titulo-seccion" align="center">3. Control de flujo</p>
+    </div>
+    
+    <div id="if" class="step" data-x="9000" data-y="10000">
+        <p class="texto-seccion">Sentencia 'if... elif ... else'</p>    
+        <pre class="brush: python">
+        	x = 5
+        	if x / 2 == 0:
+        		print "Es par"
+        	else:
+        		print "Es impar"
+        		
+        	if x > 0:
+        		print "Es positivo"
+        	elif x < 0:
+        		print "Es negativo"
+        	else:
+        		print "Es 0"</pre>
+    </div>
+    
+    <div id="while" class="step" data-x="9000" data-y="11000">
+        <p class="texto-seccion">Sentencia 'while'</p>
+        <pre class="brush: python">
+        	salir = False
+			while not salir:
+    			accion = raw_input("Que desea hacer: ")
+    			if accion == "salir":
+        			salir = True
+    			else:
+        			print "Usted ha seleccionado: %s" % accion</pre>
+    </div>
+    
+    <div id="for" class="step" data-x="9000" data-y="12000">
+        <p class="texto-seccion">Sentencia 'for... in'</p>
+        <pre class="brush: python">
+        	for numero in range(0,10):
+        		print numero
+        		
+        	coordenadas = [(0,0), (0,1), (0,2), (0,3)]
+        	for x, y in coordenadas:
+        		print "X: %s Y: %s" % (x, y)</pre>
+    </div>
+    
+    <div id="varias" class="step" data-x="9000" data-y="13000">
+        <p class="texto-seccion">Sentencias 'break' y 'continue'</p>
+        <pre class="brush: python">
+			numeros = [1, 2, 3, 3.5, 4, 5, 6, 7, 8, 9]
+			for numero in numeros:
+			    if (numero % 2) == 0:
+			        continue
+			    if type(numero) == float:
+			        break
+			    print numero</pre>
+    </div>
+    
+    <div id="switch" class="step" data-x="9000" data-y="14000">
+        <p class="texto-seccion">¿Switch en python?</p>
+        <pre class="brush: python">
+        	salir = False
+			while not salir:
+    			x = int(raw_input("Valor de X: "))
+    			y = int(raw_input("Valor de Y: "))
+			    accion = raw_input("¿Que operación quiere ejecutar? ")
+			    if accion == "suma":
+			        print "El resultado de la %s es: %s" % (accion, x + y)
+			    elif accion == "resta":
+			        print "El resultado de la %s es: %s" % (accion, x - y)
+			    elif accion == "multi":
+			        print "El resultado de la %s es: %s" % (accion, x * y)
+			    elif accion == "div":
+			        print "El resultado de la %s es: %s" % (accion, x / y)
+			    else:
+			    	print "%s no es una operación valida" % accion</pre>
+    </div>
+    
+    <div id="funciones" class="step" data-x="11000" data-y="9000">
+        <p class="titulo-seccion" align="center">4. Funciones</p>
+    </div>
+    
+    <div id="argumentos" class="step" data-x="11000" data-y="10000">
+        <p class="texto-seccion">Argumentos</p>
+        <pre class="brush: python">        	
+        	# Funcion sin argumentos
+			def saludar():
+			    print "¡Buenos dias! Bienvenido/a al curso de python"
+			# Funcion con un argumento
+			def saludarA(nombre):
+			    print "¡Buenos dias, %s! Bienvenido/a al curso de python" % nombre
+			# Funcion con multiples argumentos
+			def registrar(nombre, apellido, edad, profesion):
+			    print "Hemos registrado a %s %s." % (nombre, apellido)
+			    print "Es %s y tiene %s años." % (profesion, edad)
+			# Funcion con argumentos por defecto
+			def registrar_usuario(nombre = "visitante", profesion = None):
+				print "Se ha registrado a: %s" % nombre
+			    if profesion:
+			        print "Su profesion es: %s" % profesion
+			    else:
+			        print "No tiene profesion"</pre>
+    </div>
+    
+    <div id="retorno" class="step" data-x="11000" data-y="11000">
+        <p class="texto-seccion">Retorno de valores</p>
+        <pre class="brush: python">
+			def sumar(x, y):
+			    return x + y</pre>
+    </div>
+    
+    <div id="objetos" class="step" data-x="13000" data-y="9000">
+        <p class="titulo-seccion" align="center">5. Objetos</p>
+        <pre class="brush: python">
+			class Punto():
+				def __init__(x, y):
+					self.x = x
+					self.y = y
+					
+				def mostrar_ubicacion():
+					print "X: %s Y: %s" % (self.x, self.y)
+					
+			class Punto3D(Punto):
+				def __init__(x, y, z):
+					self.x = x
+					self.y = y
+					self.z = z</pre>
+    </div>
+    
+    
+    <div id="estilo" class="step" data-x="15000" data-y="9000">
+        <p class="titulo-seccion" align="center">6. Estilo</p>
+        
+        <p class="texto-seccion" align="center">La legibilidad es importante</p>
+        
+        <pre class="brush: python">
+    	for package_control_file in md5list:
+            if re.match("[\w]*-?[\w]*/[\w]*-[\w]*/Packages.gz$", package_control_file['name']):
+                component, architecture, _ = package_control_file['name'].split("/")
+                remote_package_path = os.path.join(remote_branch_path, package_control_file['name'])
+                local_name = "_".join([branch, component, architecture.replace("binary-", "")])
+                f = os.path.join(cache_dir_path, local_name + ".gz")
+                if package_control_file['md5sum'] != md5Checksum(f):
+                    os.remove(f)
+                    try:
+                        urllib.urlretrieve(remote_package_path, f)
+                        changes.append(f)
+                    except urllib2.URLError, e:
+                        logger.error('Could not get %s, error code #%s' % (remote_package_path, e.code))
+                else:
+                    logger.info('There are no changes in %s' % f)</pre>
+    </div>
+    
+    <div id="peps" class="step" data-x="15000" data-y="10000">
+        <p class="titulo-seccion" align="center">PEP (Python Enhancement Proposals)</p>
+        <p class="texto-seccion" align="center">ó</p>
+        <p class="texto-seccion" align="center">Propuestas de mejoras para python</p>
+        <br/>
+        <p class="texto-seccion" align="center">http://legacy.python.org/dev/peps/</p>
+    </div>
+    
+    
+    <div id="pep8-1" class="step" data-x="15000" data-y="11000">
+    	
+    	<p class="titulo-seccion" align="center">PEP8</p>
+    	
+    	<ul>
+    		<li>
+    			* Usar 4 espacios para identar, no mezclar tabulaciones y espacios.		
+    		</li>
+    		
+    		<li>
+    			* Máximo de 79 caracteres por linea.
+    		</li>
+
+    		<li>
+    			* Usar parentesis para encerrar lineas muy largas.
+				<pre class="brush: python">
+					(not filename.startswith('.') and
+					filename.endswith(('.pyc', '.pyo')))</pre>
+    		</li>
+    	</ul>
+    </div>
+    
+    <div id="pep8-2" class="step" data-x="15000" data-y="12000">
+    	<ul>
+    		<li>
+    			* A veces es mas apropiado usar un slash "/".
+    		</li>
+    		<li>
+    			* Una nueva linea despues de un operador.
+    			<pre class="brush: python">
+					resultado = variable_con_nombre_muy_largo_1 + 
+								variable_con_nombre_muy_largo_2</pre>
+    		</li>
+    		<li>
+    			* Una linea de espacio entre funciones, dos entre clases.
+    		</li>
+    		<li>
+    			* Colocar un espacio despues de las comas.
+    			<pre class="brush: python">
+					numeros = [1, 2, 3, 4, 5]</pre>
+    		</li>
+    	</ul>
+    </div>
+    
+    <div id="pep8-3" class="step" data-x="15000" data-y="13000">
+    	<ul>
+    		<li>
+    			* Usar un espacio despues de ":" en los diccionarios, no antes.
+    			<pre class="brush: python">
+					dic = {"llave1": valor1, "llave2": valor2}</pre>
+    		</li>
+    		<li>
+    			* Usar espacios alrededor de asignaciones y comparaciones.
+    		</li>
+    		<li>
+    			* Una linea de espacio entre funciones, dos entre clases.
+    		</li>
+    		<li>
+    			* No colocar espacios extra dentro de los parentesis ni en las listas de argumentos.
+    		</li>
+    	</ul>
+    </div>
+    
+    <div id="pep8-4" class="step" data-x="15000" data-y="14000">
+    	<ul>
+    		<li>
+    			* Usar nombres descriptivos, evitar nombres confusos.
+    		</li>
+    		<li>
+    			* Usar underscores (pisos) evita confusiones con palabras claves o modulos del sistema.
+    		</li>
+    		<li>
+    			* Usar underscore al inicio de una variable indica uso privado.
+    		</li>
+    		<li>    			
+    		</li>
+    	</ul>
+    </div>
+    
+    <div id="pep8-5" class="step" data-x="15000" data-y="15000">
+    	<p class="titulo-seccion" align="center">Convenciones de nombres</p>
+    	<br/>
+    	<img id="convenciones" src="images/naming.png">
+    </div>
+    
+    <div id="io" class="step" data-x="17000" data-y="9000">
+    	<p class="titulo-seccion" align="center">7. Entrada y Salida</p>
+    	<br/>
+    	<p class="texto-seccion" align="center">Para imprimir texto en pantalla usamos 'print'</p>
+    	<pre class="brush: python">
+			print "Imprimiendo texto en pantalla"</pre>
+		<p class="texto-seccion" align="center">Para obtener entrada del usuario usamos 'raw_input()'</p>
+		<pre class="brush: python">
+			valor = raw_input("Introduzca un valor inicial: ")</pre>
+    </div>
+    
+    <div id="antiguo-formateo" class="step" data-x="17000" data-y="10000">
+    	<p class="titulo-seccion" align="center">Formateo de cadenas (Antiguo y nuevo)</p>
+    	<br/>
+    	<p class="texto-seccion" align="center">Antiguo formateo de cadenas</p>
+    	
+    	<pre class="brush: python">
+    		personaje = 'anita'
+    		objeto = 'tina'
+    		accion = 'lava'
+			print '%s %s la %s' % (personaje, accion, objeto)</pre>
+			
+    	<pre class="brush: python">
+    		import math
+			print 'El valor de PI es aproximadamente %5.3f.' % math.pi</pre>	
+    </div>
+    
+    <div id="nuevo-formateo" class="step" data-x="17000" data-y="11000">
+    	<p class="texto-seccion" align="center">Nuevo formateo de cadenas</p>
+    	
+    	<pre class="brush: python">
+    		personaje = 'anita'
+    		objeto = 'tina'
+    		accion = 'lava'
+			print '{0} {1} la {2}'.format(personaje, accion, objeto)</pre>
+			
+		<pre class="brush: python">    		
+			print '{personaje} {accion} la {objeto}'.format(personaje = 'anita',
+															objeto = 'tina',
+															accion = 'lava')</pre>
+															
+		<pre class="brush: python">
+			tabla = {'Fran': 4127, 'Jose': 4098, 'Maria': 7678}
+			for nombre, extension in tabla.items():
+				print '{0:10} ==> {1:10d}'.format(nombre, extension)</pre>
+    </div>
+    
+    <div id="archivos" class="step" data-x="17000" data-y="12000">
+    	<p class="titulo-seccion" align="center">Lectura y escritura de archivos</p>
+    	<br/>
+    	<p class="texto-seccion" align="center">La función 'open()'</p>
+    	
+    	<pre class="brush: python">
+    		# 'w' => Modo de solo escritura
+    		# 'r' => Modo de solo lectura
+    		# 'r+' => Modo de lectura y escritura
+    		f = open('/tmp/workfile', 'w') # Solo escritura
+    		f = open('/tmp/workfile', 'r') # Solo lectura
+    		f = open('/tmp/workfile', 'wr') # Lectura y escritura
+    		f = open('/tmp/workfile', 'r+') # Tambien lectura y escritura</pre>
+    </div>
+    
+    <div id="escribiendo" class="step" data-x="17000" data-y="13000">
+    	<p class="texto-seccion" align="center">Escribiendo en un archivo</p>
+    	
+    	<pre class="brush: python">
+    		tabla_extensiones = {'Francisco': 4765,
+                     			 'Carlos': 6309,
+                     			 'Homero': 5323,
+                     			 'Sasha': 4512}
+			f = open('/home/fran/directorio', 'w')
+			for nombre, ext in tabla_extensiones.items():
+    			f.write("{0}::{1}\n".format(nombre, ext))
+			f.close()</pre>
+    </div>
+    
+    <div id="leyendo" class="step" data-x="17000" data-y="14000">
+    	<p class="texto-seccion" align="center">Leyendo de un archivo</p>
+    	
+    	<pre class="brush: python">
+    		f = open('/home/fran/directorio', 'r')
+			for line in f:
+    			nombre, extension = line.strip("\n").split("::")
+    		print nombre, extension
+			f.close()</pre>
+    </div>
+    
+    <div id="resumiendo" class="step" data-x="17000" data-y="15000">
+    	<p class="texto-seccion" align="center">Resumiendo (una forma mas corta)</p>
+    	
+    	<pre class="brush: python">
+    		tabla_extensiones = {'Francisco': 4765,
+                     			 'Carlos': 6309,
+                     			 'Homero': 5323,
+                     			 'Sasha': 4512}
+			with open('/home/fran/directorio', 'w') as archivo:
+    		for nombre, ext in tabla_extensiones.items():
+        		archivo.write("{0}::{1}\n".format(nombre, ext))
+        
+			with open('/home/fran/directorio', 'r') as archivo:
+    		for line in archivo:
+        		nombre, extension = line.strip("\n").split("::")
+        		print nombre, extension</pre>
+    </div>
+    
+    <div id="errores" class="step" data-x="19000" data-y="9000">
+    	<p class="titulo-seccion" align="center">8. Manejo de errores</p>
+    	
+    	<pre class="brush: python">
+    		x, y, z = (800, 600, 0)
+    		resultado = (x - y) / z</pre>
+    	
+    	<pre class="brush: python">
+    		archivo = open("/home/fran/archivo_inexistente")</pre>
+    		
+    	<pre class="brush: python">
+    		x = raw_input("Valor de X: ")
+    		y = raw_input("Valor de Y: ")
+    		print x * y</pre>
+    </div>
+    
+    <div id="excepciones" class="step" data-x="19000" data-y="10000">
+    	<p class="titulo-seccion" align="center">Como declarar una excepción</p>
+    	
+    	<pre class="brush: python">
+    		x, y, z = (800, 600, 0)
+    		try:
+    			resultado = (x - y) / z
+    		except:
+    			print "La division por 0 no esta permitida"</pre>
+    	
+    	<pre class="brush: python">
+    		try:
+				f = file("/home/fran/archivo_inexistente")
+			except:
+				print "El archivo no existe"</pre>
+    		
+    	<pre class="brush: python">
+    		x = raw_input("Valor de X: ")
+    		y = raw_input("Valor de Y: ")
+    		try:
+    			print x * y
+    		except:
+    			print "No esta permitido multiplicar cadenas de texto"</pre>
+    </div>
+    
+    <div id="mas-errores" class="step" data-x="19000" data-y="11000">
+    	<p class="titulo-seccion" align="center">Mas errores</p>
+    	
+    	<pre class="brush: python">
+    		try:
+    			print desc
+    			x = float("hola mundo")
+			except ValueError:
+    			print "No se puede convertir a float"
+			except NameError, e:
+    			print e.message
+    		else:
+    			print x + desc
+    		finally:
+				print "Limpiando y cerrando"</pre>
+    </div>
+    
+    <div id="mas-excepciones" class="step" data-x="19000" data-y="12000">
+    	<p class="titulo-seccion" align="center">Excepciones personalizadas</p>
+    	
+    	<pre class="brush: python">
+    		class ErrorPiNoEsPi(Exception):
+			    def __init__(self, valor):
+			        self.valor = valor
+			    def __str__(self):
+			        return "Error" + str(self.valor)
+			        
+			pi = 3.15
+			try:
+			    if pi != 3.14:
+			        raise ErrorPiNoEsPi(01)
+			except ErrorPiNoEsPi, e:
+			    print e</pre>
+    </div>
+    
+    <div id="rueda-cuadrada" class="step" data-x="21000" data-y="9000">
+    	<p class="titulo-seccion" align="center">9. La rueda cuadrada</p>
+    	<br/>
+    	<img src="images/rueda.jpg" />
+    </div>
+    
+    <div id="python-idiomatico" class="step" data-x="23000" data-y="9000">
+    	<p class="titulo-seccion" align="center">10. Python Idiomático</p>
+    	<br/>
+    	<p style="font-style:italic;">
+    	"¿Podrias prestarme el objeto que pones entre el tomacorriente
+		y el cable cuando quieres encender el secador de 
+		cabello y el secador es de otro pais?"
+		</p>
+		<br/>
+		<p style="font-style:italic;">
+		"¿Podrias prestarme un adaptador de corriente?"
+    	</p>
+    </div>
+    
+    <div id="for-while" class="step" data-x="23000" data-y="10000">
+    	<p class="titulo-seccion" align="center">for vs while</p>
+    	<pre class="brush: python">
+    		# MALO
+    		lst = [1,2,3,4,5,6,7,8,9]
+    		i = 0
+			while i < len(lst):
+				process(lst[i])
+				i += 1</pre>
+				
+		<pre class="brush: python">
+    		# BIEN
+    		lst = [1,2,3,4,5,6,7,8,9]
+    		for el in lst:
+				process(el)</pre>	
+    </div>
+    
+    <div id="for-while2" class="step" data-x="23000" data-y="11000">
+    	<p class="titulo-seccion" align="center">for vs while</p>
+    	<pre class="brush: python">
+    		# MALO
+    		lst = [1,2,3,4,5,6,7,8,9]
+    		j = 0
+			while j < len(lst):
+				process(index=j, element=lst[j])
+				j += 1</pre>
+		
+		<pre class="brush: python">
+    		# MEJOR PERO MALO IGUAL
+    		lst = [1,2,3,4,5,6,7,8,9]
+    		for j in range(len(lst)):
+				process(index=j, element=lst[j])</pre>
+				
+		<pre class="brush: python">
+    		# BIEN
+    		lst = [1,2,3,4,5,6,7,8,9]
+    		for j, el in enumerate(lst):
+				process(index=j, element=el)</pre>
+    </div>
+    
+    <div id="LBYL-EAFP" class="step" data-x="23000" data-y="12000">
+    	<p class="titulo-seccion" align="center">
+    		Mira antes de saltar vs. Mejor pedir perdon que pedir permiso 
+    	</p>
+    	<pre class="brush: python">
+    		# MALO
+    		id = 5
+    		empleados_id = [14, 45, 30, 23, 19]
+    		if id in empleados_id:
+				emp_actual = empleados_id[id]
+			else:
+				reportar_error()</pre>
+		
+		<pre class="brush: python">
+    		# BUENO
+    		id = 5
+    		empleados_id = [14, 45, 30, 23, 19]
+    		try:
+				emp_actual = empleados_id[id]
+			except KeyError:
+				reportar_error()</pre>
+    </div>
+    
+    <div id="LBYL-EAFP2" class="step" data-x="23000" data-y="13000">
+    	<p class="texto-seccion" align="center">LBYL vs. EAFP</p>
+    	<pre class="brush: python">
+    		# MALO	
+			if os.access(filename, os.F_OK):
+				fh = file(filename)
+			else:
+				print "Algo salio mal."		
+		
+    		# VERBOSO
+    		if os.access(filename, os.F_OK):
+			try:
+				fh = file(filename)
+			except IOError:
+				print "Algo salio mal."
+			else:
+				print "Algo salio mal."
+		
+    		# BUENO
+    		try:
+				fh = file(filename)
+			except IOError:
+				print "Algo salio mal."</pre>
+    </div>
+    
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div>
+</div>
+
+<script src="js/impress.js"></script>
+<script src="scripts/shCore.js"></script>
+<script src="scripts/shBrushPython.js"></script>
+<script src="scripts/shBrushJava.js"></script>
+<script>
+impress().init();
+SyntaxHighlighter.all();
+</script>
+</body>
+</html>
